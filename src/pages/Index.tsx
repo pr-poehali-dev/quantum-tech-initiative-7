@@ -44,10 +44,12 @@ export default function Index() {
             </a>
           </div>
           <div className="col-span-12 md:col-span-5 flex items-center justify-center">
-            <div className="relative w-full aspect-square bg-[#F2D9D9]">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-8xl">🕯️</span>
-              </div>
+            <div className="relative w-full aspect-square">
+              <img
+                src="https://cdn.poehali.dev/projects/20ca0f26-38bb-4805-b91f-899895c65a02/files/729a7a55-4412-4e3a-881c-0f785fb609a7.jpg"
+                alt="Свечи CandyCandle"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-[#C97B7B]"></div>
             </div>
           </div>
@@ -69,10 +71,11 @@ export default function Index() {
             {/* Product 1 */}
             <div className="group cursor-pointer">
               <div className="aspect-square bg-white mb-4 overflow-hidden">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-[#FDF8F5] group-hover:bg-[#F2D9D9] transition-colors duration-300 gap-3">
-                  <span className="text-6xl">🕯️</span>
-                  <span className="text-[#3D2B2B] text-sm uppercase tracking-widest font-medium">Соевый воск</span>
-                </div>
+                <img
+                  src="https://cdn.poehali.dev/projects/20ca0f26-38bb-4805-b91f-899895c65a02/files/404a9e86-b2cc-42f2-a42f-a8bcd06e5ba8.jpg"
+                  alt="Свеча Ваниль и Роза"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-1" style={{ fontFamily: "'Cormorant Garamond', serif" }}>Свеча «Ваниль & Роза»</h3>
               <p className="text-[#D4A5A5] mb-2">Нежный аромат, время горения 40 часов</p>
@@ -82,10 +85,11 @@ export default function Index() {
             {/* Product 2 */}
             <div className="group cursor-pointer">
               <div className="aspect-square bg-white mb-4 overflow-hidden">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-[#FDF8F5] group-hover:bg-[#F2D9D9] transition-colors duration-300 gap-3">
-                  <span className="text-6xl">🕯️</span>
-                  <span className="text-[#3D2B2B] text-sm uppercase tracking-widest font-medium">Кокосовый воск</span>
-                </div>
+                <img
+                  src="https://cdn.poehali.dev/projects/20ca0f26-38bb-4805-b91f-899895c65a02/files/dafc2598-e0dc-4a8d-9735-b58439b47d71.jpg"
+                  alt="Набор Уютный вечер"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-1" style={{ fontFamily: "'Cormorant Garamond', serif" }}>Набор «Уютный вечер»</h3>
               <p className="text-[#D4A5A5] mb-2">3 свечи с разными ароматами в подарочной коробке</p>
@@ -95,10 +99,11 @@ export default function Index() {
             {/* Product 3 */}
             <div className="group cursor-pointer">
               <div className="aspect-square bg-white mb-4 overflow-hidden">
-                <div className="w-full h-full flex flex-col items-center justify-center bg-[#FDF8F5] group-hover:bg-[#F2D9D9] transition-colors duration-300 gap-3">
-                  <span className="text-6xl">🕯️</span>
-                  <span className="text-[#3D2B2B] text-sm uppercase tracking-widest font-medium">Набор Premium</span>
-                </div>
+                <img
+                  src="https://cdn.poehali.dev/projects/20ca0f26-38bb-4805-b91f-899895c65a02/files/84bbedfb-b0f6-40b1-8390-517921a74fdb.jpg"
+                  alt="Набор Коллекция"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
               </div>
               <h3 className="text-xl font-bold mb-1" style={{ fontFamily: "'Cormorant Garamond', serif" }}>Набор «Коллекция»</h3>
               <p className="text-[#D4A5A5] mb-2">6 свечей + аромадиффузор, идеальный подарок</p>
@@ -119,9 +124,13 @@ export default function Index() {
               >
                 О НАС
               </h2>
-              <div className="aspect-[4/5] bg-[#F2D9D9] relative mb-8 md:mb-0 flex items-center justify-center">
-                <span className="text-9xl">🕯️</span>
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 border-2 border-[#C97B7B]"></div>
+              <div className="aspect-[4/5] relative mb-8 md:mb-0 overflow-hidden">
+                <img
+                  src="https://cdn.poehali.dev/projects/20ca0f26-38bb-4805-b91f-899895c65a02/files/404a9e86-b2cc-42f2-a42f-a8bcd06e5ba8.jpg"
+                  alt="О нас — CandyCandle"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute top-4 left-4 right-4 bottom-4 border-2 border-[#C97B7B] pointer-events-none"></div>
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pt-24">
